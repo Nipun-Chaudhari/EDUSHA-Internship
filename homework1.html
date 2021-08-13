@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f6f6f6;
+        }
+
+        body a {
+            text-decoration: none;
+            color: gray;
+        }
+
+        .main-container {
+            /* border: 1px solid black; */
+            display: flex;
+            height: 500px;
+            width: 866px;
+            margin: auto;
+            margin-top: 65px;
+            box-shadow: 0 16px 25px grey;
+        }
+
+        .login {
+            /* border: 2px solid yellow; */
+            width: 433px;
+            text-align: center;
+            background-color: white;
+        }
+
+        .picture {
+            /* border: 2px solid green; */
+            width: 433px;
+            display: flex;
+            text-align: center;
+        }
+
+        .welcome {
+            margin-top: 100px;
+        }
+
+        form small {
+            font-size: 12px;
+            color: gray;
+            margin-right: 150px;
+        }
+
+        form span {
+            margin-left: 40px;
+        }
+
+        .info {
+            width: 363px;
+            height: 25px;
+            margin: 4px;
+        }
+
+        .btn {
+            width: 371px;
+            height: 32px;
+            margin: 6px;
+            background-color: #7878e3;
+            border: white;
+            border-radius: 3px;
+            color: white;
+            font-size: 16px;
+            margin-top: 12px;
+        }
+
+        .btn:hover{
+            cursor: pointer;
+        }
+    </style>
+    
+</head>
+
+<body>
+
+    <div class="main-container">
+
+        <div class="login">
+
+            <h2 style="color: #e17171;">Remit</h2>
+
+            <div class="welcome">
+                <h3 style="margin: 0;">Welcome!</h3>
+                <small style="font-size: 14px; color: gray;">Sign in by entering the infromation below</small>
+            </div>
+
+            <form action="#" style="margin-top: 50px;">
+                <input class="info" type="text" placeholder="Email Address"><br>
+                <input class="info" type="password" placeholder="Password"><br>
+                <input type="checkbox"><small><sup>Remember Me</sup></small>
+                <span style="font-size: 10px; color: gray;"><a href="#">Forgotten Password</a></span>
+                <br>
+                <button class="btn">Continue</button>
+                <br>
+                <span style="font-size: 12px; color: gray;">Don't have an account?<a href="#">Create one
+                        here.</a></span>
+            </form>
+
+        </div>
+
+        <div class="picture">
+
+            <img src="/assets/image.png" alt="">
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
