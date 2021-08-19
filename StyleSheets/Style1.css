@@ -1,0 +1,59 @@
+.popup{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visiblity 0, opacity 0.7s;
+}
+
+.activate{
+    visibility: visible;
+    opacity: 1;
+}
+
+.forgotPassword{
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 4px;
+}
+
+.forgotPassword input{
+    width: 363px;
+    height: 25px;
+}
+
+.forgotPassword button{
+    width: 371px;
+    height: 32px;
+    margin: 6px;
+    background-color: #7878e3;
+    border: white;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.exit{
+    position: absolute;
+    color: black;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.forgotPassword button:hover{
+    cursor: pointer;
+}
