@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entry Form</title>
+    <link rel="stylesheet" href="/Homework/StyleSheets/entryform.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="entry-form">
+            <h1>Entry Form</h1>
+            <form id="entryForm" onsubmit="store(event)">
+            <div class="information">
+                <input type="text" id="first-name" placeholder="First Name"/>
+            </div>        
+            <div class="information">
+                <input type="text" id="last-name" placeholder="Last Name"/>
+            </div>        
+            <div class="information">
+                <input type="number" id="number" placeholder="Number"/>
+            </div>        
+            <div class="information">
+                <input type="text" id="email" placeholder="Email"/>
+            </div>        
+            <div class="information">
+                <input type="number" id="age" placeholder="Age">
+                <input type="date" id="DOB" placeholder="Date of Birth"/>
+            </div>
+            <div class="information">
+                <input type="textarea" id="address" placeholder="Address"/>
+            </div> 
+            <div class="buttons">
+                <button type="submit" id="submit">Submit</button>
+                <button type="reset" id="reset">Reset</button>
+            </div>   
+        </form>     
+        </div>
+    </div>
+    <script src="Scripts/entryform.js"></script>
+</body>
+</html>
