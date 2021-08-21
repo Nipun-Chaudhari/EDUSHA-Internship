@@ -1,0 +1,34 @@
+.container{
+    /* border: 2px solid green; */
+    font-family: 'Ubuntu', sans-serif;
+    height: 100%;
+    
+}
+
+.entry-form{
+    border: 12px solid red;
+    border-radius: 3px;
+    width: 25%;
+    margin: auto;
+    box-shadow: 0 16px 25px grey;
+}
+
+.information input{
+    margin: 12px;
+    width: 347px;
+    height: 25px;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 15px;
+}
+
+.buttons{
+    margin: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button{
+    width: 100px;
+    height: 30px;
+}
